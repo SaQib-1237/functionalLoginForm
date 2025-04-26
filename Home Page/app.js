@@ -5,7 +5,7 @@ displayName();
 function logOut() {
   localStorage.clear();
   alert('Your Account Geting Removed From Us');
-  window.location.href = '../Registration/index.html';
+  window.location.href = '../index.html';
 }
 
 function displayName() {
