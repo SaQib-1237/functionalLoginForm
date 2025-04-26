@@ -1,0 +1,31 @@
+
+body {
+  background-color: #f0f2f5;
+  color:#333;
+}
+
+
+
+form{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 70dvh;
+  height: 70dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+}
+
+@media(min-width: 200px) and (max-width: 470px){
+  form{
+    width: 50dvh;
+  }
+}

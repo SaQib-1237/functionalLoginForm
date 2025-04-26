@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <form onsubmit="handleSubmit(event);">
+    <div class="form-container">
+      <div class="mb-3">
+        <label for="full-name" class="form-label fw-bolder">Full Name</label>
+        <input type="text" class="form-control fw-bolder" name="username" id="full-name" >
+      </div>
+  
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label fw-bolder">Email address</label>
+        <input type="email" class="form-control fw-bolder" name = "useremail" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label fw-bolder">Password</label>
+        <input type="password" class="form-control" name="password" id="exampleInputPassword1" required minlength="8">
+      </div>
+     
+      <button type="submit" class="btn btn-success fw-bolder m-3">Submit</button>
+      <p>_____________OR____________</p>
+      <p id="registerd-pera"></p>
+      <a href="../Login/login.html" id="registerd-btn"></a>
+    </div>
+  </form>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+  <script src="../Login/app.js"></script>
+</body>
+</html>
