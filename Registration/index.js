@@ -27,5 +27,5 @@ function handleSubmit(event) {
 }
 
 function checkUser() {
-  alert('User Already Existt');
+  alert('User Already Exist');
 }
