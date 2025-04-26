@@ -1,7 +1,7 @@
 
 body {
   background-color: #f0f2f5;
-  color:#333;
+  color:white
 }
 
 
@@ -18,8 +18,11 @@ form{
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  background-color: #ffffff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 8px;
+  /* background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  box-shadow: 1px 1px 30px 10px rgb(99, 99, 206);
   border-radius: 8px;
 
 }
